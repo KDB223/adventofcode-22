@@ -16,7 +16,7 @@ public class DayX {
             System.err.println("Failed to open file: " + e);
             System.exit(1);
         } catch (IOException e) {
-            System.err.println(e);
+            System.err.println("IOException: " + e);
             System.exit(1);
         }
     }
