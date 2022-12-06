@@ -35,17 +35,16 @@ public class DaySix {
         int l = 0;
         int r = size - 1;
         while (r < line.length()) {
-            r++;
             char lc = line.charAt(l);
+            l++;
+            r++;
             char rc = line.charAt(r);
 
             map.put(rc, map.getOrDefault(rc, 0) + 1);
             map.put(lc, map.getOrDefault(lc, 0) - 1);
 
             if (map.get(lc) <= 0) map.remove(lc);
-
-            l++;
-
+            
             if (map.size() == size) {
                 return r + 1;
             }
