@@ -44,7 +44,7 @@ public class DaySix {
             map.put(lc, map.getOrDefault(lc, 0) - 1);
 
             if (map.get(lc) <= 0) map.remove(lc);
-            
+
             if (map.size() == size) {
                 return r + 1;
             }
