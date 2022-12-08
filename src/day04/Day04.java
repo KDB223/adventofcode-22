@@ -1,4 +1,4 @@
-package dayfour;
+package day04;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
-public class DayFour {
+public class Day04 {
 
     private static int total;
     private static int overlaps;

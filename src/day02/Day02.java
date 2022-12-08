@@ -1,4 +1,4 @@
-package daytwo;
+package day02;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Map;
 
-public class DayTwo {
+public class Day02 {
     private static int total;
     private static int totalNew;
 

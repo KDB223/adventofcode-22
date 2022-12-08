@@ -1,4 +1,4 @@
-package daysix;
+package day06;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class DaySix {
+public class Day06 {
     public static void main(String[] args) {
         try (BufferedReader reader = new BufferedReader(new FileReader("src/daysix/input.txt"))) {
             String line;

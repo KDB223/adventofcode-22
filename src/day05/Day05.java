@@ -1,4 +1,4 @@
-package dayfive;
+package day05;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -9,10 +9,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Deque;
 import java.util.List;
-import java.util.Stack;
-import java.util.stream.IntStream;
 
-public class DayFive {
+public class Day05 {
     private static final List<Deque<Character>> stacks = new ArrayList<>();
 
     public static void main(String[] args) {

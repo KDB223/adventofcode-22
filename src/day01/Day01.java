@@ -1,11 +1,11 @@
-package dayone;
+package day01;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class DayOne {
+public class Day01 {
     private static int maxElf = 0;
     private static final List<Integer> calories = new ArrayList<>();
     private static int maxCalories = Integer.MIN_VALUE;

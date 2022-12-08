@@ -1,4 +1,4 @@
-package dayseven;
+package day07;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-public class DaySeven {
+public class Day07 {
 
     private static final Stack<String> dirStack = new Stack<>();
     private static final Stack<Integer> sizeStack = new Stack<>();

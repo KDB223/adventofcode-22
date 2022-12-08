@@ -1,4 +1,4 @@
-package daythree;
+package day03;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class DayThree {
+public class Day03 {
     private static int total;
     private static final List<char[]> list = new ArrayList<>();
     private static int totalNew;
@@ -45,10 +45,10 @@ public class DayThree {
     }
 
     private static void process() {
-        if (DayThree.list.size() != 3) return;
+        if (Day03.list.size() != 3) return;
         Map<Character, Set<Integer>> map = new HashMap<>();
-        for (int i = 0; i < DayThree.list.size(); i++) {
-            char[] listSack = DayThree.list.get(i);
+        for (int i = 0; i < Day03.list.size(); i++) {
+            char[] listSack = Day03.list.get(i);
             for (char c : listSack) {
                 Set<Integer> sackSet = map.getOrDefault(c, new HashSet<>());
                 sackSet.add(i);
@@ -67,7 +67,7 @@ public class DayThree {
             }
         }
 
-        DayThree.list.clear();
+        Day03.list.clear();
     }
 
     private static void partOme(char[] sack) {
