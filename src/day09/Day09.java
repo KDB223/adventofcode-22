@@ -23,8 +23,6 @@ public class Day09 {
 
     private static final List<String> input = new ArrayList<>();
     private static List<Knot> knots;
-    private static int hx = 0, hy = 0;
-    private static int tx = 0, ty = 0;
 
     public static void main(String[] args) {
         consumeInput();
